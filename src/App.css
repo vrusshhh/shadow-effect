@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+body{background:rgb(255, 255, 255);}
+.app{align-items: center;}
+h2{text-align: center; color: white; text-shadow: 2px 2px 2px grey; background: black; width: 100%;padding: 10px;}
+h2:hover{color: grey; text-shadow: 2px 2px 2px white;}
+.main{display: flex; align-items: center; }
+.ranges{width: 50%; padding: 20px;}
+label{margin-right: 10px; color: rgb(87, 85, 85);}
+.inputs{width: 50%; margin-left: 25%;}
+.output{width: 50%;}
+.box{width: 50%; height: 50vh; background: cornsilk; margin-left: 25%; position: relative;}
+p{position: absolute; top: 15vh;left: 20%;color:white; background: black;padding: 10px; border-radius: 8px;}
+footer{color: white;background: black; text-align: center; position: fixed; bottom: 20px; width: 100%;}
